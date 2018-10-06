@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Testing valid Zipcode in search result",
+        "description": "",
+        "id": "ww-find-location;testing-valid-zipcode-in-search-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17166167282,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User at Home page",
+            "match": {
+              "location": "JavaCode.user_at_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4162692710,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on //*[@id\u003d\"ela-menu-visitor-desktop-supplementa_find-a-studio\"] button by xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@id\u003d\"ela-menu-visitor-desktop-supplementa_find-a-studio\"]",
+                  "offset": 11
+                }
+              ],
+              "location": "JavaCode.I_click_on_xpath_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4178058377,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Enter 10011 in the meetingSearch",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10011",
+                  "offset": 8
+                },
+                {
+                  "val": "meetingSearch",
+                  "offset": 21
+                }
+              ],
+              "location": "JavaCode.I_enter_username_in_the(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1320171810,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Click on //*[@id\u003d\"content\"]/div/div/ui-view/ui-view/div/div/div/div/div[2]/div[1]/div/form/div[1]/span/button button by xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@id\u003d\"content\"]/div/div/ui-view/ui-view/div/div/div/div/div[2]/div[1]/div/form/div[1]/span/button",
+                  "offset": 11
+                }
+              ],
+              "location": "JavaCode.I_click_on_xpath_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1529572550,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Click on //*[@id\u003d\"ml-1180510\"]/result-location/div/div[1] button by xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@id\u003d\"ml-1180510\"]/result-location/div/div[1]",
+                  "offset": 11
+                }
+              ],
+              "location": "JavaCode.I_click_on_xpath_button(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "WW find location",
+    "description": "",
+    "id": "ww-find-location",
+    "keyword": "Feature",
+    "uri": "src/test/BDD/Testing_Valid_Zipcode_search_result.feature"
+  }
+]

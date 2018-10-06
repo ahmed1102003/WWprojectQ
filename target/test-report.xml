@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.356663">
+<testcase classname="WW find location" name="Testing valid Zipcode in search result" time="28.356663">
+<system-out><![CDATA[Given User at Home page.....................................................passed
+When I Click on //*[@id="ela-menu-visitor-desktop-supplementa_find-a-studio"] button by xpath.passed
+And I Enter 10011 in the meetingSearch......................................passed
+And I Click on //*[@id="content"]/div/div/ui-view/ui-view/div/div/div/div/div[2]/div[1]/div/form/div[1]/span/button button by xpath.passed
+And I Click on //*[@id="ml-1180510"]/result-location/div/div[1] button by xpath.passed
+]]></system-out>
+</testcase>
+</testsuite>
